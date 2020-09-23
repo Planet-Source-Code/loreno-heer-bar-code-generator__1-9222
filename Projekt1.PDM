@@ -1,0 +1,98 @@
+[Root]
+Most Recent Package=Setup for Bar Code Generator
+
+
+[Package|Setup for Bar Code Generator|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Programme\Microsoft Visual Studio\VB98\Programme\bcode\Setup
+
+[Package|Setup for Bar Code Generator|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup for Bar Code Generator|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup for Bar Code Generator|Files Found]
+
+[Package|Setup for Bar Code Generator|Files Released]
+
+[Package|Setup for Bar Code Generator|Missing Dependency Information]
+
+[Package|Setup for Bar Code Generator|Out-of-Date Dependency Information]
+
+[Package|Setup for Bar Code Generator|Files Added]
+C:\Programme\Microsoft Visual Studio\VB98\Programme\bcode\Readme.txt=
+
+[Package|Setup for Bar Code Generator|Files Removed]
+
+[Package|Setup for Bar Code Generator|Files In Project]
+C:\Programme\Microsoft Visual Studio\VB98\Programme\bcode\BCode.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6DE.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.exe=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Programme\bcode\Readme.txt=Yes
+
+[Package|Setup for Bar Code Generator|Configure Registry Files]
+Applicable=No
+
+[Package|Setup for Bar Code Generator|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup for Bar Code Generator|Install Locations]
+C:\Programme\Microsoft Visual Studio\VB98\Programme\bcode\BCode.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6DE.DLL=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.exe=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Programme\Microsoft Visual Studio\VB98\Programme\bcode\Readme.txt=$(AppPath)
+
+[Package|Setup for Bar Code Generator|Configure Shared Files]
+Applicable=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Programme\bcode\BCode.exe=No
+C:\Programme\Microsoft Visual Studio\VB98\Programme\bcode\Readme.txt=No
+
+[Package|Setup for Bar Code Generator|Distribution]
+Type=single
+Size=
+Title=BCode (Fullversion)
+
+[Package|Setup for Bar Code Generator|IconGroups]
+Group0=EAN Bar Code Generator
+PrivateGroup0=Falsch
+Parent0=$(Programs)
+
+[Package|Setup for Bar Code Generator|EAN Bar Code Generator]
+Icon1=BCode.exe
+Title1=Bar Code
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Readme.txt
+Title2=Readme.txt
+StartIn2=$(AppPath)
+Key2=Icon6
+
+[Package|Setup for Bar Code Generator|Package]
+PackageFolder=C:\Programme\Microsoft Visual Studio\VB98\Programme\bcode\Setup
+ProjectFolder=C:\Programme\Microsoft Visual Studio\VB98\Programme\bcode
+ServerSideCab=
+File1=C:\Programme\Microsoft Visual Studio\VB98\Programme\bcode\Setup\setup.exe
+File2=C:\Programme\Microsoft Visual Studio\VB98\Programme\bcode\Setup\Setup.Lst
+File3=C:\Programme\Microsoft Visual Studio\VB98\Programme\bcode\Setup\BCode.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
